@@ -168,7 +168,10 @@ header.homepage::before {
 
 .gallery-grid img {
   width: 100%;
-  border-radius: 10px;
+  border: solid white 2px;
+  border-radius: 4em;
+  height: 500px;
+  object-fit: cover;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
